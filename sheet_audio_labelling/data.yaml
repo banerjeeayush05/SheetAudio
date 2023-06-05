@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../train/images
+
+nc: 37
+names: ['base_clef', 'bass_clef', 'crescendo_sign', 'diminuendo', 'diminuendo_sign', 'dotted_half_note', 'double_piano_sign', 'double_sharp_accidental', 'double_staccato', 'eighth_note', 'eighth_rest', 'flat', 'forte', 'fortissimo', 'grace_eighth_note', 'half_note', 'half_rest', 'marcato_sign', 'n_tuplet_sign', 'natural', 'note_head', 'quarter_note', 'quarter_rest', 'sforzato', 'sharp', 'sharp_accidental', 'sixteenth_note', 'sixteenth_rest', 'sixty_fourth_note', 'slur_sign', 'staccato', 'staff', 'thirty_second_note', 'tie_sign', 'treble_clef', 'trill_sign', 'whole_rest']
+
+# roboflow:
+#   workspace: ayush-banerjee-4d3su
+#   project: sheet-audio-labelling
+#   version: 3
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/ayush-banerjee-4d3su/sheet-audio-labelling/dataset/3
